@@ -2,7 +2,8 @@
 <androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     android:layout_width="match_parent"
-    android:layout_height="wrap_content">
+    android:layout_height="wrap_content"
+    android:paddingBottom="20dp">
 
     <FrameLayout
         android:id="@+id/frameLayout"
@@ -40,6 +41,7 @@
         app:layout_constraintTop_toTopOf="parent">
 
         <TextView
+            android:id="@+id/gig_title"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="ライブ名"
@@ -48,6 +50,7 @@
             android:textStyle="bold" />
 
         <TextView
+            android:id="@+id/artist_name"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginTop="8dp"
@@ -66,6 +69,7 @@
                 android:src="@drawable/ic_baseline_calendar_month_24" />
 
             <TextView
+                android:id="@+id/gig_date"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:text="2022/05/16"
@@ -86,7 +90,7 @@
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-
+                android:id="@+id/gig_place"
                 android:text="梅田シャングリラ"
                 android:textColor="@color/white"
                 android:textSize="18sp" />
@@ -105,6 +109,7 @@
                 android:textSize="15sp" />
 
             <TextView
+                android:id="@+id/attendees"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:text="100000人"
@@ -125,6 +130,7 @@
                 android:textSize="15sp" />
 
             <TextView
+                android:id="@+id/review"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:text="100000件"
@@ -144,19 +150,18 @@
 
         <Button
             android:id="@+id/button"
-            android:layout_width="0dp"
+            android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_marginStart="10dp"
-            android:layout_marginEnd="10dp"
+            android:layout_marginStart="5dp"
             android:layout_weight="1"
             android:text="チケット申し込み"
             android:textColor="@color/text_weak" />
 
         <Button
-            android:layout_width="0dp"
+            android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_marginStart="10dp"
-            android:layout_marginEnd="10dp"
+            android:layout_marginStart="50dp"
+            android:layout_marginEnd="5dp"
             android:layout_weight="1"
             android:text="行く"
             android:textColor="@color/text_weak"

@@ -1,4 +1,4 @@
-package com.example.otoaka.ui.notifications
+package com.example.otoaka.ui.mypage
 
 import android.os.Bundle
 import android.view.LayoutInflater
@@ -8,7 +8,6 @@ import android.widget.TextView
 import androidx.fragment.app.Fragment
 import androidx.lifecycle.Observer
 import androidx.lifecycle.ViewModelProvider
-import com.example.otoaka.R
 import com.example.otoaka.databinding.FragmentNotificationsBinding
 
 class NotificationsFragment : Fragment() {
@@ -31,7 +30,7 @@ class NotificationsFragment : Fragment() {
         _binding = FragmentNotificationsBinding.inflate(inflater, container, false)
         val root: View = binding.root
 
-        val textView: TextView = binding.textNotifications
+        val textView: TextView = binding.name
         notificationsViewModel.text.observe(viewLifecycleOwner, Observer {
             textView.text = it
         })
