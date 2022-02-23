@@ -7,10 +7,12 @@
         <entry key="app/src/main/res/drawable/ic_baseline_search_24.xml" value="0.1535" />
         <entry key="app/src/main/res/drawable/ic_baseline_settings_24.xml" value="0.1535" />
         <entry key="app/src/main/res/layout/fragment_home.xml" value="0.22056159420289856" />
+        <entry key="app/src/main/res/layout/fragment_my_profile_detail.xml" value="0.1" />
         <entry key="app/src/main/res/layout/fragment_notifications.xml" value="0.22056159420289856" />
         <entry key="app/src/main/res/layout/fragment_ranking.xml" value="0.22056159420289856" />
         <entry key="app/src/main/res/layout/item_content_layout.xml" value="0.17135416666666667" />
         <entry key="app/src/main/res/layout/item_gig_info.xml" value="0.17135416666666667" />
+        <entry key="app/src/main/res/layout/item_pager.xml" value="0.29936594202898553" />
         <entry key="app/src/main/res/layout/item_ranking_layout.xml" value="0.17135416666666667" />
         <entry key="app/src/main/res/layout/item_snack_event.xml" value="0.17135416666666667" />
       </map>
