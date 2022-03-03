@@ -10,4 +10,7 @@
     <color name="white">#FFFFFFFF</color>
     <color name="gray">#1C1C1E</color>
     <color name="text_weak">#757575</color>
+
+    <color name="positive">#E65439</color>
+    <color name="positive_darker">#A93B27</color>
 </resources>
