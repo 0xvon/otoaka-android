@@ -1,10 +1,22 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <color name="purple_200">#FFBB86FC</color>
-    <color name="purple_500">#FF6200EE</color>
-    <color name="purple_700">#FF3700B3</color>
-    <color name="teal_200">#FF03DAC5</color>
-    <color name="teal_700">#FF018786</color>
+    <color name="primary">#E65439</color>
+    <color name="light">#EE8875</color>
+    <color name="dark">#A93B27</color>
+    <color name="google">#FBBC05</color>
+    <color name="facebook">#3B5998</color>
+    <color name="twitter">#1DA1F2</color>
     <color name="black">#FF000000</color>
-    <color name="white">#FFFFFFFF</color>
+    <color name="apple">#1C1C1E</color>
+    <color name="gray">#1C1C1E</color>
+    <color name="text">#F0F0F0</color>
+    <color name="text_weak">#909090</color>
+    <color name="background_primary">#14141A</color>
+    <color name="background_light">#909090</color>
+    <color name="background_mild">#1C1C1E</color>
+    <color name="background_milder">#414045</color>
+
+    <color name="white">#F0F0F0</color>
+
+
 </resources>
