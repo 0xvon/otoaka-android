@@ -48,7 +48,7 @@
                     android:layout_marginStart="8dp"
                     android:layout_marginTop="8dp"
                     android:text="まりか"
-                    android:textColor="@color/white"
+                    android:textColor="@color/text"
                     android:textSize="18sp"
                     android:textStyle="bold" />
 
@@ -145,7 +145,7 @@
         android:layout_marginTop="10dp"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        app:tabTextColor="@color/white"/>
+        app:tabTextColor="@color/text"/>
 
     <androidx.viewpager2.widget.ViewPager2
         android:id="@+id/pager"

@@ -7,7 +7,7 @@
             android:bottomLeftRadius="20px"
             />
         <solid
-            android:color="@color/positive_darker"
+            android:color="@color/dark"
             />
     </shape>
 </item>

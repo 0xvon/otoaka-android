@@ -1,18 +1,16 @@
 <?xml version="1.0" encoding="utf-8"?>
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    android:layout_width="wrap_content"
     xmlns:app="http://schemas.android.com/apk/res-auto"
-    android:layout_margin="8dp"
+    android:layout_width="wrap_content"
     android:layout_height="wrap_content"
-    android:background="@drawable/item_backgrand"
+    android:layout_margin="8dp"
+    android:background="@drawable/item_background"
     android:orientation="vertical">
 
     <LinearLayout
         android:layout_width="343dp"
         android:layout_height="134dp"
-        android:background="@drawable/item_backgrand"
         android:orientation="horizontal">
-
 
         <ImageView
             android:layout_width="72dp"
@@ -80,9 +78,9 @@
                 android:id="@+id/user_name"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
+                android:layout_gravity="right"
                 android:layout_marginTop="8dp"
                 android:layout_marginEnd="8dp"
-                android:layout_gravity="right"
                 android:text="Marika Terao"
                 android:textColor="@color/white"
                 android:textSize="12dp" />
@@ -91,19 +89,20 @@
                 android:id="@+id/snack_point"
                 android:layout_width="wrap_content"
                 android:layout_height="match_parent"
-                android:layout_marginEnd="8dp"
                 android:layout_gravity="right"
+                android:layout_marginEnd="8dp"
                 android:text="1000 snacks"
                 android:textColor="@color/white"
                 android:textSize="10dp" />
 
         </LinearLayout>
+
         <androidx.cardview.widget.CardView
             android:id="@+id/icon"
             android:layout_width="28dp"
             android:layout_height="28dp"
-            android:layout_marginEnd="8dp"
             android:layout_gravity="center"
+            android:layout_marginEnd="8dp"
             app:cardBackgroundColor="@color/black"
             app:cardCornerRadius="100dp"
             app:cardElevation="0dp">
